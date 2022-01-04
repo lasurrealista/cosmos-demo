@@ -191,14 +191,6 @@ em.planet::before {
     background: black;
 }
 
-em.planet.left {
-    transform-origin: 40vmin 5vmin;
-}
-
-em.planet.right {
-    transform-origin: -20vmin 5vmin;
-}
-
 @keyframes planet-rotate {
     to {
         transform: rotate(1turn);
